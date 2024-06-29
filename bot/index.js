@@ -1,7 +1,7 @@
 const { Telegraf } = require('telegraf');
 const { message } = require('telegraf/filters');
 
-const bot = new Telegraf(process.env.BOT_TOKEN);
+const bot = new Telegraf('7224585098:AAFUiZ1jI3EqMbl4tQ1DQi5l-AyFrAGzLZ8');
 
 bot.command('start', (ctx) => {
   ctx.reply('Welcome to the Telegram Web App Bot!', {
